@@ -12,6 +12,10 @@ app.get("/",function(req,res){
     res.render("home");
 });
 
+app.get("/keyround",function(req,res){
+    res.render("keyround");
+});
+
 
 app.get("/key",function(req,res){
     res.render("key");

@@ -6,7 +6,6 @@ var tl = anime.timeline({
     delay:1000
   });
 
-// var shidt =121
 tl
 .add({
   targets:'.left',
@@ -33,16 +32,7 @@ tl
 })
 
 
-window.onscroll = function(){
-console.log(window.pageYOffset);
 
-if(650<=window.pageYOffset<=700){
-
-console.log("skjdhajkh")
-var t2 = anime.timeline({
-  duration: 1000,
-  // delay:1000
-});
 
 
 
