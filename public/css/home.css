@@ -1,0 +1,27 @@
+*::after{
+    margin: 0;
+}
+*::before{
+    margin: 0;
+}
+
+body{
+    background-color: #FFE15D;
+
+}
+
+.aes-head{
+    font-size: 10rem;
+    text-align: center;
+}
+
+.pucho{
+   /* display: inline-block; */
+   /* margin: 0 auto; */
+   display: flex;
+   justify-content: center; 
+}
+
+.btn{
+    margin: 60px;
+}

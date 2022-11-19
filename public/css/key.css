@@ -1,0 +1,78 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 106.25px);
+    grid-gap: 15px;
+    position: relative;
+    margin-left: 300px;
+    margin-top: 100px;
+    /* margin-bottom: 100px; */
+  }
+  
+  .grid-container1 {
+    display: grid;
+    grid-template-columns: repeat(1, 106.25px);
+    grid-gap: 15px;
+    position: relative;
+    margin-left: 100px;
+    margin-top: 100px;
+    /* margin-bottom: 100px; */
+  }
+  .grid-cell {
+    height: 106.25px;
+    border-radius: 3px;
+    background: #acaaaa;
+    text-align: right, bottom;
+  }
+
+.boxes{
+    height: 100vh;
+    font-size: 60px;
+    border: solid 2px black;
+}
+  .section1{
+
+    background-color: aqua;
+  }
+
+  .section2{
+    position: relative;
+    background-color: crimson;
+  }
+
+  .section3{
+
+    background-color:fuchsia;
+  }
+
+
+  .ima{
+    position: absolute;
+    left: 25%;
+    top:25%;
+  }
+
+
+
+  .ima{
+    animation: animName 4s linear infinite;
+  }
+  
+  @keyframes animName {
+   0%{
+      transform: rotate(0deg);
+     }
+  100%{
+      transform: rotate(360deg);
+     }
+  }
+
+
+  .ima1{
+    left: 50%;
+    top:25%;
+  }
+  
+
+  .btn{
+    margin-left: 50%;
+  }
