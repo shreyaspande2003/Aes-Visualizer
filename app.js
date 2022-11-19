@@ -36,6 +36,4 @@ app.post("/index",function(req,res){
 
 });
 
-app.listen(3000,function(){
-    console.log("port running !!")
-});
+app.listen(process.env.PORT||3000);
