@@ -4,6 +4,7 @@ var tl = anime.timeline({
   // duration: 750
 });
 
+
 tl.add({
   targets: ['.Bc1r1, .Bc2r1, .Bc3r1, .Bc4r1, .Bc1r2, .Bc2r2, .Bc3r2, .Bc4r2, .Bc1r3, .Bc2r3, .Bc3r3, .Bc4r3, .Bc1r4, .Bc2r4, .Bc3r4, .Bc4r4'],
   // borderRadius: ['0%', '50%'],
@@ -57,15 +58,6 @@ t2.add({
     opacity: '1',
     easing: 'easeInOutQuad'
   })
-
-
-
-
-
-
-
-
-
 
 
   t2.add({

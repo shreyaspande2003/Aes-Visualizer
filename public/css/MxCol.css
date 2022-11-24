@@ -58,15 +58,22 @@ span{
   color: blue;
   z-index: 100;
 }
-img{
+.imgg{
   height: 50px;
   width: 50px;
   position: absolute;
   left: 36%;
-  top : 37%;
+  top : 40%;
+  /* opacity: 1; */
 }
 .btn{
   margin-left: 50%;
   margin-top: 40%;
 }
 
+.right{
+  position: absolute;
+  left: 70%;
+  top: 40%;
+  /* opacity: 1; */
+}
