@@ -9,6 +9,18 @@ body{
     text-align: center;
     background-color: red;
 }
+body {
+    background-color: #e74c3c;
+    animation: bg-color 30s infinite;
+  }
+  @keyframes bg-color {
+    0% { background-color: #e74c3c; }
+    20% { background-color: #f1c40f; }
+    40% { background-color: #1abc9c; }
+    60% { background-color: #3498db; }
+    80% { background-color: #9b59b6; }
+    100% { background-color: #e74c3c; }
+  }
 
 .grid-container {
     display: grid;
@@ -16,7 +28,7 @@ body{
     grid-gap: 15px;
     position: relative;
     margin-left: 30%;
-    margin-top: 10%;
+    margin-top: 6%;
 }
 
 .grid-cell {

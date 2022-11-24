@@ -5,6 +5,9 @@ var tl = anime.timeline({
 });
 
 
+
+
+
 tl.add({
   targets: ['.Bc1r1, .Bc2r1, .Bc3r1, .Bc4r1, .Bc1r2, .Bc2r2, .Bc3r2, .Bc4r2, .Bc1r3, .Bc2r3, .Bc3r3, .Bc4r3, .Bc1r4, .Bc2r4, .Bc3r4, .Bc4r4'],
   // borderRadius: ['0%', '50%'],
@@ -27,7 +30,7 @@ t2.add({
     borderRadius: ['0%', '50%'],
     opacity: ['1','0'],
     easing: 'easeInOutQuad'
-  },0);
+  },1000);
 
 t2.add({
     // targets: '.Rc1r1, .Rc2r1, .Rc3r1, .Rc4r1',
@@ -39,6 +42,16 @@ t2.add({
     easing: 'easeInOutQuad'
   },0);
 
+
+  t2.add({
+    // targets: '.Rc1r1, .Rc2r1, .Rc3r1, .Rc4r1',
+    targets: '.imgg , .right',
+    // translateY: 120,
+    // translateX: -550,
+    // borderRadius: ['0%', '50%'],
+    opacity: ['0','1'],
+    easing: 'easeInOutQuad'
+  },1000);
   // tl.add({
   //   targets: ['.Bc1r1, .Bc2r1, .Bc3r1, .Bc4r1'],
   //   // borderRadius: ['0%', '50%'],
@@ -116,21 +129,3 @@ t2.add({
     easing: 'easeInOutQuad'
   }, '+=200')
 
-  // tl.add({
-  //   targets: ['.Bc1r1, .Bc2r1, .Bc3r1, .Bc4r1, .Bc1r2, .Bc2r2, .Bc3r2, .Bc4r2, .Bc1r3, .Bc2r3, .Bc3r3, .Bc4r3, .Bc1r4, .Bc2r4, .Bc3r4, .Bc4r4'],
-  //   // borderRadius: ['0%', '50%'],
-  //   // delay: '1000',
-  //   // translateX: 550,
-  //   duration:0,
-  //   opacity:1,
-  //   easing: 'easeInOutQuad'
-  // }, '+=200')
-
-// anime({
-//   targets: '.l1',
-//   // left: '240px',
-//   // backgroundColor: '#FFF',
-//   // borderRadius: ['0%', '50%'],
-//   opacity: ['0','1'],
-//   easing: 'easeInOutQuad'
-// });

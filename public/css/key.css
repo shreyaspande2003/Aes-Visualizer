@@ -29,23 +29,27 @@
     font-size: 60px;
     border: solid 2px black;
 }
-  .section1{
+body {
+  background-color: #e74c3c;
+  animation: bg-color 60s infinite;
+}
+@keyframes bg-color {
+  0% { background-color: #e74c3c; }
+  20% { background-color: #f1c40f; }
+  40% { background-color: #1abc9c; }
+  60% { background-color: #3498db; }
+  80% { background-color: #9b59b6; }
+  100% { background-color: #e74c3c; }
+}
 
-    background-color: aqua;
-  }
+p {
+  font-family: Meiryo, "Hiragino Kaku Gothic Pro W3",sans-serif;
+  text-align: center;
+  margin-top: 150px;
+  color: #fff;
+}
 
-  body {
-    background-color: #e74c3c;
-    animation: bg-color 10s infinite;
-  }
-  @keyframes bg-color {
-    0% { background-color: #e74c3c; }
-    20% { background-color: #f1c40f; }
-    40% { background-color: #1abc9c; }
-    60% { background-color: #3498db; }
-    80% { background-color: #9b59b6; }
-    100% { background-color: #e74c3c; }
-  }
+
   
   p {
     font-family: Meiryo, "Hiragino Kaku Gothic Pro W3",sans-serif;

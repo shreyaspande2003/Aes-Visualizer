@@ -2,8 +2,8 @@
 
 
 var tl = anime.timeline({
-    duration: 1000,
-    delay:1000
+    duration: 700,
+    delay:500
   });
 
 tl
