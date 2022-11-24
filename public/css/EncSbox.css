@@ -1,0 +1,85 @@
+body{
+    /* font-size: 10rem; */
+    /* text-align: center; */
+    background-color: #FFE15D;
+}
+.hae{
+    text-align: center;
+}
+
+.b1{
+    /* margin-right: 60%; */
+    /* float: left; */
+    /* display: inline-block; */
+    position: absolute;
+    left: 45%;
+    top: 5%;
+    opacity: 1;
+}
+
+.b2{
+    /* float: right; */
+    /* margin-left: 70%; */
+    display: inline-block;
+}
+
+.boxes{
+    height: 100vh;
+    font-size: 60px;
+    border: solid 2px black;
+}
+
+.grid-container {
+    /* align-items: center; */
+    display: grid;
+    grid-template-columns: repeat(4, 106.25px);
+    grid-gap: 15px;
+    /* position: relative; */
+    /* align-items: center; */
+    margin-left: 10%;
+    margin-top: 100px;
+    /* margin-bottom: 100px; */
+  }
+
+.grid-container2 {
+    /* align-items: center; */
+    display: grid;
+    grid-template-columns: repeat(4, 106.25px);
+    grid-gap: 15px;
+    position: relative;
+    /* align-items: center; */
+    margin-right: 50%;
+    margin-top: 100px;
+    /* margin-bottom: 100px; */
+  }
+
+.grid-cell {
+    height: 106.25px;
+    border-radius: 3px;
+    background: #acaaaa;
+    text-align: right, bottom;
+}
+
+/* .portal{
+    height: 50px;
+    width: 10 px;
+    background-color: black;
+    margin-left: 40%;
+    margin-right: 60%;
+    
+} */
+
+.portal{
+    background-color : black;
+    height : 500px;
+    width : 5px;
+    position:absolute ;
+    left: 50%;
+    top: 15%;
+    z-index: 100   ;
+  }
+  
+.btn{
+    margin-left: 50%;
+    margin-top: 5%;
+  }

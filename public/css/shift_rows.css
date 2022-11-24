@@ -1,0 +1,27 @@
+.boxes{
+    height: 100vh;
+    font-size: 60px;
+    border: solid 2px black;
+}
+
+body{
+    font-size: 3rem;
+    text-align: center;
+    background-color: red;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 106.25px);
+    grid-gap: 15px;
+    position: relative;
+    margin-left: 30%;
+    margin-top: 10%;
+}
+
+.grid-cell {
+    height: 106.25px;
+    border-radius: 3px;
+    background: #acaaaa;
+    text-align: right, bottom;
+}

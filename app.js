@@ -11,6 +11,18 @@ app.use(express.static("public"));
 app.get("/",function(req,res){
     res.render("home");
 });
+app.get("/roundxor",function(req,res){
+    res.render("roundxor");
+});
+app.get("/shift_rows",function(req,res){
+    res.render("shift_rows");
+});
+app.get("/mix_column",function(req,res){
+    res.render("MxCol");
+});
+app.get("/EncSbox",function(req,res){
+    res.render("EncSbox");
+});
 
 app.get("/keyround",function(req,res){
     res.render("keyround");
@@ -19,6 +31,9 @@ app.get("/keyround",function(req,res){
 
 app.get("/key",function(req,res){
     res.render("key");
+});
+app.get("/keyallxor",function(req,res){
+    res.render("keyallxor");
 });
 
 app.get("/encrypt",function(req,res){
@@ -36,4 +51,6 @@ app.post("/index",function(req,res){
 
 });
 
-app.listen(process.env.PORT||3000);
+app.listen(process.env.PORT||3000,function(){
+    console.log("Hosted on Port 3000!!!");
+});
