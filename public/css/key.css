@@ -6,6 +6,7 @@
     margin-left: 300px;
     margin-top: 20px;
     /* margin-bottom: 100px; */
+    font-size: 60px;
     text-align: center;
   }
   
@@ -16,6 +17,9 @@
     position: relative;
     margin-left: 100px;
     margin-top: 100px;
+    font-size: 60px;
+    text-align: center;
+
     /* margin-bottom: 100px; */
   }
   .grid-cell {
@@ -27,7 +31,6 @@
 
 .boxes{
     height: 100vh;
-    /* font-size: 60px; */
     /* border: solid 2px black; */
 }
 body {

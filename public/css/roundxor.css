@@ -101,3 +101,8 @@
     opacity: 0;
     z-index: 200;
   }
+
+  .btn{
+    margin-left: 45%;
+    margin-right: 30%;
+  }
