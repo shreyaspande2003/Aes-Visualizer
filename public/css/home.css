@@ -154,5 +154,7 @@ body {
   /* margin: auto; */
   text-align: center;
   color: white;
+  width: 700px;
+  margin-left: 25%;
   font-size: 1.5rem;
 }
