@@ -13,18 +13,19 @@
     grid-template-columns: repeat(4, 50px);
     grid-gap: 10px;
     position: absolute;
-    top: 100px;
-    margin-left: 900px;
+    top: 400px;
+    margin-left: 750px;
     margin-top: 0;
     /* margin-bottom: 100px; */
   }
   .grid-container2 {
     display: grid;
-    grid-template-columns: repeat(1, 50px);
+    grid-template-columns: repeat(4, 50px);
     grid-gap: 10px;
     position: absolute;
     left: 75%;
     top: 56%;
+    /* opacity: 0; */
     /* margin-bottom: 100px; */
   }
   
