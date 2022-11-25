@@ -213,3 +213,8 @@ h1{
   position: relative;
   right: 25%;
 }
+
+.header{
+  font-family: 'Times New Roman', Times, serif;
+  left: 35%;
+}

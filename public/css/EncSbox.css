@@ -109,3 +109,8 @@
     transform:translateX(25%);
   }
 }
+
+
+.header{
+  font-family: 'Times New Roman', Times, serif;
+}
