@@ -161,6 +161,11 @@ t2.add({
   scale:1.5,
   duration:2000
 })
+.add({
+  targets:'.hh',
+  opacity:1,
+  duration:1000
+})
 
 
 

@@ -11,9 +11,15 @@ app.use(express.static("public"));
 app.get("/",function(req,res){
     res.render("home");
 });
+
+app.get("/round",function(req,res){
+    res.render("round");
+});
+
 app.get("/roundxor",function(req,res){
     res.render("roundxor");
 });
+
 app.get("/shift_rows",function(req,res){
     res.render("shift_rows");
 });

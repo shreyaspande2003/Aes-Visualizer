@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/round.css">
+    <title>Encrypt</title>
+    <script type="module" src="/javascript/round.js"></script>
+
+</head>
+<body>
+    <div class="empty"></div>
+    <div class ="line"></div>
+    <div class ="Box"></div>
+    <div class="anim-box"></div>
+    <div class="hh">
+        <!-- <h1>ROUND CONSTANT XOR</h1> -->
+        <p class="font-weight-normal"> The working of AES is representated in brief and quite easy to visualise way in the 
+            representation given. It works by performing series of operation on a matrix and these steps are repeated
+         10 times as shown in the visual here. To look into further details click on the button given.  </p>
+        <!-- <p class="font-weight-normal"></p> -->
+      
+      </div>
+      <a href="/EncSbox"><button type="button" class="btn btn-outline-dark btn-lg">START</button></a>
+
+    <div class ="box bx1">Add round key</div>
+    <div class ="box bx2">1 - SubBytes</div>
+    <div class ="box bx3">2 - Shiftrows</div>
+    <div class ="box bx4">3 - MixColoumns</div>
+    <div class ="box bx5">4 - Add Round Key</div>
+    <div class ="box bx6">SubBytes</div>
+    <div class ="box bx7">ShiftRows</div>
+    <div class ="box bx8">AddRoundKey</div>
+
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"
+        integrity="sha512-z4OUqw38qNLpn1libAN9BsoDx6nbNFio5lA6CuTp9NlK83b89hgyCVq+N5FdBJptINztxn1Z3SaKSKUS5UP60Q=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+    ></script>
+    <script type="module" src="/javascript/round.js"></script>
+    </body>
+</html>
