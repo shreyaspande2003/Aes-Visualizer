@@ -14,7 +14,7 @@ let animation1 = anime({
     // targets: '.game-container',
     // translateY: 10,
     // // opacity: 0,
-    // delay: 1000
+    delay: 2000,
     targets: '.left',
     translateX: 300,
     opacity:0,
@@ -24,10 +24,7 @@ let animation1 = anime({
 
 
   let animation2 = anime({
-    // targets: '.game-container',
-    // translateY: 10,
-    // // opacity: 0,
-    delay: 1000,
+    delay: 2500,
     targets: '.right',
     translateX: 200,
     opacity:1,

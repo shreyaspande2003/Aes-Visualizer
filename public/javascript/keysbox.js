@@ -2,11 +2,11 @@ var tl = anime.timeline({
     duration: 1000,
     delay:1000
   });
-
 tl
 .add({
     targets:'.first',
     translateX : 120,
+    innerHTML:`<span>K<span style="color:#acaaaa">0</span></span>`,
     delay:10
 })
 .add({
@@ -18,12 +18,17 @@ tl
     targets:'.first',
     translateX :400,
     opacity :0,
-    delay:10
+    delay:10,
 })
 .add({
     targets:'.first',
+    innerHTML:'b3',
+    duration:0
+})
+
+.add({
+    targets:'.first',
     translateX : 800,
-    // translateX :600,
     delay:10
 })
 .add({
@@ -45,6 +50,7 @@ tl
 .add({
     targets:'.second',
     translateX : 120,
+    innerHTML:`<span>E<span style="color:#acaaaa">0</span></span>`,
     delay:10
 })
 .add({
@@ -58,6 +64,13 @@ tl
     opacity :0,
     delay:10
 })
+
+.add({
+    targets:'.second',
+    innerHTML:'6e',
+})
+
+
 .add({
     targets:'.second',
     translateX : 800,
@@ -82,6 +95,7 @@ tl
 .add({
     targets:'.third',
     translateX : 120,
+    innerHTML:`<span>Y<span style="color:#acaaaa">0</span></span>`,
     delay:10
 })
 .add({
@@ -97,6 +111,12 @@ tl
 })
 .add({
     targets:'.third',
+    innerHTML:'cb<span style="color:#acaaaa">1</span>',
+})
+
+
+.add({
+    targets:'.third',
     translateX : 800,
     delay:10
 })
@@ -121,6 +141,7 @@ tl
 .add({
     targets:'.fourth',
     translateX : 120,
+    innerHTML:`<span><span style="color:#acaaaa">0</span></span>`,
     delay:10
 })
 .add({
@@ -133,6 +154,11 @@ tl
     translateX :400,
     opacity :0,
     delay:10
+})
+
+.add({
+    targets:'.fourth',
+    innerHTML:'b7',
 })
 .add({
     targets:'.fourth',

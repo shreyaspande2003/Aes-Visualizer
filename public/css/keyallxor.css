@@ -39,8 +39,9 @@
 
 .boxes{
     height: 100vh;
-    font-size: 60px;
+    font-size: 30px;
     border: solid 2px black;
+    text-align: center;
 }
   .section1{
 
