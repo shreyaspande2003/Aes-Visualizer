@@ -1,0 +1,139 @@
+body {
+    background-color: #e74c3c;
+    animation: bg-color 10s infinite;
+  }
+@keyframes bg-color {
+    0% { background-color: #e74c3c; }
+    20% { background-color: #f1c40f; }
+    40% { background-color: #1abc9c; }
+    60% { background-color: #3498db; }
+    80% { background-color: #9b59b6; }
+    100% { background-color: #e74c3c; }
+}
+
+.box{
+    /* background-color:black; */
+    height:50px;
+    width:380px;
+    border-style: solid;
+    border-width: 2px;
+    text-align: center;
+    font-size: 1rem;
+    border-radius: 10px;
+  }
+
+.anim-box{
+    background-color: black;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-style: solid;
+    border-width: 1px;
+    left: 22%;
+    top: 1em;
+}
+
+.Box{
+    position: absolute;
+    height: 500px;
+    width: 500px;
+    border-style: solid;
+    border-width: 1px;
+    left: 25%;
+    top: 16em;
+}
+
+.bx1{
+    position:relative;
+    left: 13%;
+    top : 3em;
+    background-color: #008080;
+}
+
+.bx2{
+    position:relative;
+    left: 13%;
+    top:13em;
+    background-color: #6495ED;
+}
+
+.bx3{
+    position:relative;
+    left: 13%;
+    top:15em;
+    background-color: #9370DB;
+}
+
+.bx4{
+    position:relative;
+    left: 13%;
+    top:17em;
+    background-color: #BDB76B;
+}
+
+.bx5{
+    position:relative;
+    left: 13%;
+    top:19em;
+    background-color: #20B2AA;
+}
+
+.bx6{
+    position:relative;
+    left: 13%;
+    top: 30em;
+    background-color: #228B22;
+}
+
+.bx7{
+    position:relative;
+    left: 13%;
+    top:32em;
+    background-color: #B8860B;
+}
+
+.bx8{
+    position:relative;
+    left: 13%;
+    top:34em;
+    background-color: #FF0000;
+}
+
+.text-box{
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    right: 10%;
+    top: 25%;
+    background-color: black;
+}
+
+.line{
+    position: absolute;
+    left: 25%;
+    top:31em;
+    height: 170%;
+    width: 0;
+    border-style: solid;
+    border-width: 1px;
+    top: 0px !important;
+}
+.empty{  
+    width: 100px;
+    height: 100px;
+}
+
+
+.hh{
+    font-size: 25px;
+    font-weight: 600;
+    position: absolute;
+    left: 60%;
+    text-align:center;
+    top: 50%;
+}
+.btn{
+    position: absolute;
+    margin-top: 35%;
+    margin-left: 75%;
+  }

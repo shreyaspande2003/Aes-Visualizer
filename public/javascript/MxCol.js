@@ -21,7 +21,7 @@ tl.add({
 var t2 = anime.timeline({
   // easing: 'easeOutExpo',
   // duration: 750
-  delay:1000
+  // delay:1000
 });
 
 t2.add({
@@ -128,4 +128,32 @@ t2.add({
     opacity: 1,
     easing: 'easeInOutQuad'
   }, '+=200')
+
+  .add({
+    targets:['.imgg , .right'],
+    opacity:0,
+    duration:1000
+  })
+  .add({
+    targets:['.imgg , .right , .grid-container1 '],
+    opacity:0,
+    duration:1000
+  })
+
+  .add({
+    targets:['.imgg , .right , .grid-container1 '],
+    opacity:0,
+    duration:1000
+  })
+  .add({ 
+    targets:['.grid-container0 '],
+    translateX : -550,
+    duration:1000
+  })
+  
+  .add({
+    targets:['.grid-container0 '],
+    scale: 1.3,
+    duration:1000
+  })
 

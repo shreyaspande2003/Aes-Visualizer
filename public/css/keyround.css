@@ -43,8 +43,8 @@
 
 .boxes{
     height: 100vh;
-    font-size: 60px;
-    border: solid 2px black;
+    /* font-size: 60px; */
+    /* border: solid 2px black; */
 }
 
 
@@ -53,6 +53,7 @@
 
  
   .btn{
+    margin-top: 30px;
     margin-left: 40%;
   }
 
@@ -92,4 +93,12 @@
   100% {
     transform:translateX(25%);
   }
+}
+.hh{
+  position: absolute;
+  top: 40%;
+  margin-left: 75%;
+  width:20%;
+  color: white;
+  text-align: center;
 }

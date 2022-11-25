@@ -39,17 +39,24 @@
 
 .boxes{
     height: 100vh;
-    font-size: 30px;
     border: solid 2px black;
     text-align: center;
 }
-  .section1{
 
-    background-color: aqua;
-  }
 
   
-
+  body {
+    background-color: #e74c3c;
+    animation: bg-color 60s infinite;
+  }
+  @keyframes bg-color {
+    0% { background-color: #e74c3c; }
+    20% { background-color: #f1c40f; }
+    40% { background-color: #1abc9c; }
+    60% { background-color: #3498db; }
+    80% { background-color: #9b59b6; }
+    100% { background-color: #e74c3c; }
+  }
 
 
   
@@ -70,4 +77,16 @@
     position: absolute;
     left: 65%;
     top: 67%;
+  }
+
+
+  .hh{
+    position: absolute;
+    color: black;
+    width: 400px;
+    font-size:2rem;
+    text-align: center;
+    margin-top: 10%;
+    margin-left: 15%;
+    opacity: 0;
   }

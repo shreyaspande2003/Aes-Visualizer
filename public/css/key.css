@@ -4,7 +4,7 @@
     grid-gap: 15px;
     position: relative;
     margin-left: 300px;
-    margin-top: 100px;
+    margin-top: 20px;
     /* margin-bottom: 100px; */
     text-align: center;
   }
@@ -27,8 +27,8 @@
 
 .boxes{
     height: 100vh;
-    font-size: 60px;
-    border: solid 2px black;
+    /* font-size: 60px; */
+    /* border: solid 2px black; */
 }
 body {
   background-color: #e74c3c;
@@ -43,21 +43,7 @@ body {
   100% { background-color: #e74c3c; }
 }
 
-p {
-  font-family: Meiryo, "Hiragino Kaku Gothic Pro W3",sans-serif;
-  text-align: center;
-  margin-top: 150px;
-  color: #fff;
-}
 
-
-  
-  p {
-    font-family: Meiryo, "Hiragino Kaku Gothic Pro W3",sans-serif;
-    text-align: center;
-    margin-top: 150px;
-    color: #fff;
-  }
 
   .section3{
 
@@ -94,5 +80,14 @@ p {
   
 
   .btn{
+    margin-top: 30px;
     margin-left: 50%;
+  }
+  .hh{
+    position: relative;
+    top: 40%;
+    margin-left: 75%;
+    width:20%;
+    color: white;
+    text-align: center;
   }

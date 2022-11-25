@@ -57,7 +57,13 @@ t2
 .add({
   targets:'.center',
   opacity: 1,
-  duration:3000,
+  duration:2000,
+  
+})
+.add({
+  targets:'.hh',
+  opacity: 1,
+  duration:1000,
   
 })
 
